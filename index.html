@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+   <title>/reading</title>
+
+   <link rel="stylesheet" type="text/css" href="css/screen.css" />
+<style type="text/css">
+
+</style>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="header">
+         <h1><span>/</span>reading</h1>
+      </div>
+      <div class="content">
+
+<h2>We believe that sharing is killing the open web.</h2>
+
+<p>
+   That might seem like a bold statement (and it is), but as the 1% of
+   social media sites continue to dominate our lives, we inch closer
+   to a web that is closed off and controlled by large, billion dollar
+   corporations. No amount
+   of <a href="https://en.wikipedia.org/wiki/Don%27t_be_evil">"don't
+   be evil"</a> can protect us.
+</p>
+<p>
+   We've seen these sites go from an open sharing model (when they
+   were smaller, and lesser known) to a model defined by personalized
+   recommendation algorithms, a practice known
+   as <a href="https://en.wikipedia.org/wiki/Filter_bubble">filter
+   bubbling</a>. Want to ensure that your 2 year old's picture shows
+   up in her grandmother's feed? You can't.
+</p>
+
+<h2>The plumbing for an open web already exists.</h2>
+
+<p>
+   Since the late 90s, authors on the Internet have been able to share
+   their work in an open, standardized way that is simple for computer
+   programs to understand and extract meaning from. We believe that
+   these technologies are <em>mandatory</em> for an open web (yet, the
+   top 1% of social media sites have <em>eliminated</em> them from
+   their feature sets). There are two such formats in common use: <a href="http://www.rssboard.org/">RSS</a>
+   and <a href="http://atomenabled.org/">Atom</a>. "Common use" isn't good enough. RSS and Atom should be <em>the</em> plumbing in use whenever possible, on the open web.
+</p>
+<p>
+   There are still sharing focused services that utilize and support
+   RSS and Atom as plumbing.
+</p>
+<p>
+   Many sharing focused services still support this plumbing. We
+   encourage you to utilize those instead of publishing your content
+   into a black hole. In addition, we encourage you to publish
+   2 <a href="https://en.wikipedia.org/wiki/OPML">OPML</a> files at
+   the root of your website, /reading.xml, and /publishing.xml. Like
+   <a href="http://robotstxt.org">robots.txt</a>
+   or <a href="http://slashpurpose.org">/purpose</a>, the predictable
+   location is key, so that we can ensure future tools can
+   automatically discover them.
+</p>
+<p>
+  <strong>What goes into /reading.xml?</strong> /reading.xml is an OPML file that
+  outlines all of the feeds that you consume in your feed reader. Some feeds contain
+  authentication, either because they are customized from a service, or because they
+  are hosting paid content of some sort. These feeds should <em>not</em> be published
+  in /reading.xml.
+</p>
+<p>
+  <strong>What goes into /publishing.xml?</strong> /publishing.xml is an OPML file
+  outline all of the feeds (Atom/RSS) that <em>you</em>, or your organization are responsible
+  for.
+</p>
+<p>
+   We believe that openness about these things will help us build
+   better and more interesting ways to share and consume shared content
+   in the future, and ultimately protect the open web from closing up.
+</p>
+      </div>
+
+      <!-- <div class="howto"> -->
+      <!--    <ol> -->
+      <!--       <li>Backup/Export your subscriptions from your feed reader</li> -->
+      <!--       <li>Upload that export to your blog at /reading.xml</li> -->
+      <!--       <li>Add a /reading page which summarizes your favorites and dumps them all in a readable manner</li> -->
+      <!--    </ol> -->
+      <!-- </div> -->
+
+      <div class="footer">
+         <h3>Inspired by your friends at <a href="http://slashpurpose.org">/purpose</a></h3>
+
+         <a href="/reading.xml">oh, so meta!</a> 
+      </div>
+   </div>
+</body>
+</html>
